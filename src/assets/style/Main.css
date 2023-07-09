@@ -1,0 +1,186 @@
+.location-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.socialicons-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.625rem;
+}
+
+.location {
+    width: 70vw;
+    background:  url(../image/background.jpg) no-repeat center/cover;
+    background-position-y: 10%;
+    display: flex;
+    color: #c2a44f;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 3.125rem;
+    border-radius: 0.625rem;
+}
+
+.text-width{
+    width: 65vw;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.location-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.program-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+}
+
+.programs {
+    display: flex;
+    flex-direction: column;
+}
+
+.gifts-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.faq-section{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.question-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-group h3 {
+    padding: 1rem 0rem;
+}
+.answer {
+    width: 65vw;
+}
+
+.question {
+    color: #c2a44f;
+    width: 65vw;
+}
+
+.contact-section{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.contact-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin:1rem 0 ;
+}
+
+.input-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.h1-main-tittle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 3.125rem;
+    color: #c2a44f;
+    text-align: none;
+    text-justify: none;
+}
+
+.li-withoutMarker{
+    list-style: none;
+}
+
+.email-main{
+    margin-left: 2.5rem;
+}
+
+
+@media (max-width: 360px) {
+    .welcome{
+        font-size: medium;
+    }
+
+    .h1-main-tittle{
+        font-size: 2rem;
+    }
+
+    .location-text, .text-width, .question, .answer, .question-group h3, .welcome-section p{
+        font-size: small;
+    }
+
+    .contact-main .email-main li:nth-child(1), .contact-main .email-main li:nth-child(2) {
+        font-size: x-small;
+    }
+
+    .contact-main .email-main li:nth-child(2){
+        margin-top: 0.5rem;
+    }
+
+    .email-main{
+        margin-left: 0rem;
+    }
+
+}

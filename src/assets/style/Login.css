@@ -1,0 +1,60 @@
+.login-header {
+    background: url(../image/11820288121eae169fd51e21fa153bae_75b831ec667cf2bde3c8b2a52999e517.jpg)center/cover;
+    padding: 1rem;
+    height: 40vh;
+}
+
+.login-footer {
+    width: 100%;
+    background: url(../image/footer.jpg) center/cover;
+    height: 47vh;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #143364;
+}
+
+.login-inputs {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.login-forget p {
+    font-size: small;
+}
+
+.error {
+    font-size: small;
+}
+
+@media (max-width: 320px) {
+    .login-header{
+        height: 30vh;
+    }
+    .login-footer{
+        height: 30vh;
+    }
+    .login-container{
+        height: 40vh;
+    }
+
+    .formControl-container{
+        width: 80vw;
+    }
+
+    .login-form{
+        width: 80vw;
+    }
+
+    .login-forget p {
+        font-size: x-small;
+        margin-left: 2.5rem;
+        margin-right: 1.25rem;
+    }
+}

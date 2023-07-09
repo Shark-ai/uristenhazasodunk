@@ -1,0 +1,85 @@
+.welcome-container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+color: #143364;
+}
+
+.ul-width{
+width: 65vw;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.welcome-container h3, .dinner-container h3{
+padding: 1rem 0rem;
+color: #c2a44f;
+}
+.welcome-container h4, .dinner-container h4{
+padding-top: 1rem;
+color: #c2a44f;
+}
+
+.dinner-container h5{
+padding-top: 1rem;
+color: #c2a44f;
+}
+
+.dessert-container ul li::marker, .eveningmeal-container ul li::marker, .dinner-container ul li::marker, .welcome-container ul li::marker {
+        color: #c2a44f;
+}
+
+.dinner-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #143364;
+}
+
+.eveningmeal-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #143364;
+}
+
+.dessert-container {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #143364;
+}
+
+.h1-menu-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 3.125rem;
+    color: #c2a44f
+}
+
+
+.backToMainPage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    @media (max-width: 700px) {
+        .h1-menu-title {
+            font-size: 2rem;}
+    }
+
+    @media (max-width: 360px) {
+        .formControl{
+            width: 80vw;
+        }
+        .ul-width li{
+            font-size: small;
+        }
+    }

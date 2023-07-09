@@ -1,0 +1,141 @@
+.span{
+    color: #c2a44f;
+    margin: 0rem 1rem;
+    padding: 0.75rem;
+    background: linear-gradient(90deg, #143364 0%, #4b648c 100%);
+    border-radius: 50%;
+}
+
+.span-text{
+  color: #c2a44f;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.showcase-area {
+
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    /* background: hsla(100,0%,0%,.5); */
+    font-size: 1.6rem;
+    margin-top: 5rem;
+  }
+  
+  .showcase-container  h1 {
+      font-size: 7rem;
+      color: #c2a44f;
+      margin-bottom: 0;
+    }
+  
+  .main-title {
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+    color: #c2a44f;
+  }
+  
+  .main-title::after {
+      display: block;
+      content: "";
+      background-color: #c2a44f;
+      height: 1px;
+      width: 12.515625rem;
+      margin: .5rem auto;
+    }
+    
+    .date {
+      font-size: 1.25rem;
+      letter-spacing: .15rem;
+      vertical-align: middle;
+      color: #c2a44f;
+    }
+    
+    .date::before,
+    .date::after {
+      display: inline-block;
+      content: "";
+      background-color: #c2a44f;
+      height: 1px;
+      width: 1.5rem;
+      vertical-align: middle;
+      margin: 0 .5rem;
+    }
+  
+    @media (max-width: 768px) {
+
+      .countdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .main-title, .date, .span{
+        font-size: medium;
+      }
+
+      .showcase-container{
+        justify-content: flex-end;
+      }
+
+      .showcase-container  h1 {
+        font-size: 4rem;
+      }
+
+      .span, .span-text{
+        font-size: 0.8rem;
+    }
+  }
+
+    @media (max-width: 360px) {
+
+      .date, .span{
+        font-size: small;
+      }
+
+      .main-title {
+        font-size: x-small;
+        margin-top: 2.8125rem;
+      }
+
+      .showcase-container{
+        margin-top: 1rem;
+      }
+
+      .showcase-container  h1 {
+        font-size: 3rem;
+      }
+
+      .date::before,
+    .date::after {
+      display: none
+    }
+
+    .span, .span-text{
+      font-size: 0.5rem;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+    }

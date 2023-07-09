@@ -1,0 +1,22 @@
+tbody tr:nth-child(odd) {
+    background: #eee;
+    color: rgb(194, 164, 79);
+}
+
+tbody tr:nth-child(even) {
+    color: rgb(194, 164, 79);
+}
+
+th {
+    padding: 0.625rem;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+  td {
+    text-align: center;
+    padding: 0.3rem;
+
+  }

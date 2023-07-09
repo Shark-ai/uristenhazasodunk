@@ -1,0 +1,7 @@
+@media (max-width: 360px) {
+    .timeline-text{
+        font-size: x-small;
+        font-weight: bold;
+        line-height: 0;
+    }
+}
