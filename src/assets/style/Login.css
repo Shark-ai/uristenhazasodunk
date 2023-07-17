@@ -33,7 +33,7 @@ flex-direction: column;
     font-size: small;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .login-header{
         height: 30vh;
     }

@@ -195,7 +195,7 @@ const Main = () => {
           <div className="question-group">
             <h3>Egyéb apróságok</h3>
             <p className="question">
-              Hozzhatok magammal gyereket, kiskedvencet?
+              Hozhatok magammal gyereket, kiskedvencet?
             </p>
             <p className="answer">
               Nem, szeretnénk ha mindenkinek egy kikapcsolódás lenne az

@@ -28,7 +28,7 @@
         height: 20vh;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .notfound-container p{
         display: contents;
         
