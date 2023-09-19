@@ -67,7 +67,7 @@ const Menu = () => {
             Vacsora ételek-italok
           </h1>
           <h1 className="h1-menu-title" style={{ marginTop: "0" }}>
-            (19:00-tól)
+            (19:30-tól)
           </h1>
           <h3>Vacsora italok</h3>
           <ul className="ul-width">

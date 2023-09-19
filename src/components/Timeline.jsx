@@ -84,7 +84,7 @@ export default function CustomizedTimeline() {
           variant="body2"
           color="#143364"
         >
-          16:30
+          17:00
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot
@@ -110,7 +110,7 @@ export default function CustomizedTimeline() {
           variant="body2"
           color="#143364"
         >
-          17:00
+          17:30
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot
@@ -136,7 +136,7 @@ export default function CustomizedTimeline() {
           variant="body2"
           color="#143364"
         >
-          19:00
+          19:30
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot

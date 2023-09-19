@@ -15,7 +15,12 @@ const Input = () => {
   const { currentUser } = useContext(UserContext);
 
   useEffect(() => {
-    if (currentUser[0].name === "Máté" || currentUser[0].name === "Gyuri") {
+    if (
+      currentUser[0].name === "Máté" ||
+      currentUser[0].name === "Gyuri" ||
+      currentUser[0].name === "Márk" ||
+      currentUser[0].name === "István és kollégája"
+    ) {
       navigate("/main");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
