@@ -23,7 +23,7 @@ export const UserProviderr = ({ children }) => {
   map.set("TomiesDanci", "Tomi és Danci");
   map.set("LiliesZsolti", "Lili és Zsolti");
   map.set("Krisztian", "Sici");
-  map.set("Dani", "Dani");
+  map.set("Dani", "Dana");
   map.set("TimiesZoli", "Keresztanyu és Keresztapu");
   map.set("ViviesGergo", "Hugi és Gergő");
   map.set("Jankamama", "Mama");
@@ -34,7 +34,7 @@ export const UserProviderr = ({ children }) => {
   map.set("MarcsiesPisti", "Kerianyu és Keriapu");
   map.set("Mate", "Máté");
   map.set("AndiesPisti", "Andi és Pisti");
-  map.set("PatrikesGeza", "Patrik és Géza");
+  map.set("Patrik", "Patrik");
   map.set("Peti", "Peti és párja");
   map.set("ReniesAdam", "Reni és Ádám");
   map.set("Vercsi", "Vercsi");
